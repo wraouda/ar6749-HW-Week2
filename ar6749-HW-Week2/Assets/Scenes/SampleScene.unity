@@ -311,7 +311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -71.43, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &472785757
@@ -389,7 +389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 416.6, y: 0}
+  m_AnchoredPosition: {x: 172.1, y: -1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610836603
@@ -424,7 +424,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This is what you want
+  m_Text: Keep collecting these until you hear the sound. You'll know
 --- !u!222 &610836604
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -791,7 +791,7 @@ PrefabInstance:
     - target: {fileID: 1494466608050848456, guid: 02db9caaa01e744bc81823298a8c40ed,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.86
       objectReference: {fileID: 0}
     - target: {fileID: 1494466608050848456, guid: 02db9caaa01e744bc81823298a8c40ed,
         type: 3}
@@ -1000,6 +1000,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 605475685885142257, guid: e3d6b983add0741798ee2ad46681a2fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 605475685885142257, guid: e3d6b983add0741798ee2ad46681a2fe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669737862930157133, guid: e3d6b983add0741798ee2ad46681a2fe,
+        type: 3}
+      propertyPath: m_FontSize
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6173292977220179060, guid: e3d6b983add0741798ee2ad46681a2fe,
         type: 3}
       propertyPath: m_RootOrder

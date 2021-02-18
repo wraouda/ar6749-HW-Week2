@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     public int score = 0;
 
-    private int targetscore = 3;
+    public int targetscore = 3;
 
     public TextMesh text;
 
@@ -36,13 +36,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = "Score: " + score;
+        text.text ="Level: " + currentLevel + " Score: " + score + " Target: " + targetscore;
         
         if (score == targetscore)
         {
             currentLevel++;
             GetComponent<AudioSource>().Play();
-            targetscore += targetscore/2;
+            targetscore += targetscore + targetscore/2;
         }
     }
 }
