@@ -16,6 +16,8 @@ public class Prize : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        transform.position = new Vector2(Random.Range(-5,5), Random.Range(-5,5));
+        transform.position = new Vector2(Random.Range(-4,5), Random.Range(-4,5));
+
+        GameManager.instance.score++;
     }
 }
